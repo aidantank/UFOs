@@ -8,7 +8,7 @@ Data: [Data.js](static/js/data.js)
 
 ## Results
 ### Filter Summary
-When running the [webpage](index.html) in your browser you can view the UFO Finder. The top section has the title and blurb about relevancy of the UFO sitings. In order to filter the data in the below table, see the filter search box that looks like this:
+When running the [webpage](index.html) in your browser you can view the UFO Finder. The user can interact with the table by using the filter box. In order to filter the data in the UFO data table, use the filter search box that looks like this:
 
 ![](static/images/Filter_Table.PNG)
 
@@ -27,7 +27,7 @@ Keep in mind that you cannot filter on the duration and comments, but those fiel
 
 ## Summary
 ### Drawbacks
-A major drawback of the design is the input in the filter search. The inputs have to be very specific and not always intuitive. For example, the date field is of the type M/DD/YYYY for 1/10/2010, but of type M/D/YYYY when the date is 1/9/2010. Accepting results of type MM//DD//YYYY or MM/DD/YY would help the user inputs. The same can be said about capitalization in the other fields. `ca` will yield results for California, but `CA` will not. Including ease of filter inputs for the user would make navigating the webpage better.
+A major drawback of the design is the input in the filter search. The inputs have to be very specific and are not always intuitive. For example, the date field is of the type M/DD/YYYY for 1/10/2010, but of type M/D/YYYY when the date is 1/9/2010. Accepting results of type MM/DD/YYYY or MM/DD/YY would help the user inputs. The same can be said about capitalization in the other filter fields. `ca` will yield results for California, but `CA` will not. Including ease of filter inputs for the user would smooth out the navigating of the webpage.
 
 ### Future Recommendations
 In order to develop the webpage further I would make a couple of recommendations:
