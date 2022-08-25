@@ -1,3 +1,8 @@
+# Files in Project to Ignore
+style.css
+nasa.jpg
+app_original.js
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
